@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <!-- bootstrap link -->
+   <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <div class="holder">
+        <div class="container">
+            <div class="row ">
+            
+                <div class="register">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="img_holder ">
+                                    <img class="" src="./images/Image Placeholder (1).png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <h2>Create Account</h2>
+
+                                <p>Go ahead and sign up, let everyone know how awesome you are!</p>
+                            
+                                <form id="form" method="post">
+                                   
+                                   
+                                    <div class="inputHolder position-relative my-3">
+                                        <div class="iconHolder position-absolute">
+                                           <img src="./images/User.png" alt="" srcset="">
+                                        </div>
+                                        <input class=" form-control px-5 py-3" type="text" id="userNameInput" placeholder=" Username"> 
+                                       
+                                    </div>
+                                    <div id="userNameError" class="alert alert-danger d-none" role="alert">
+                                     Username can only be 5:15 chars and must start and end with a-z
+                                      </div>
+                                   
+                                    <div class="inputHolder position-relative my-3">
+                                        <div class="iconHolder position-absolute">
+                                            <img src="./images/EnvelopeSimple.png" alt="">
+                                        </div>
+                                        <input id="emailInput" class="form-control px-5 py-3" type="email" placeholder=" Email"> 
+                                    </div>
+
+                                    <div id="emailError" class="alert alert-danger d-none" role="alert">
+                                       check Email 
+                                      </div>
+
+                                    <div class="inputHolder position-relative my-3">
+                                        <div class="iconHolder position-absolute">
+                                            <img src="./images/LockKey.png" alt="">
+                                        </div>
+                                        <input id="passwordInput" class="form-control px-5 py-3" type="password" placeholder=" password"> 
+                                    </div>
+                                    <div id="passwordError" class="alert alert-danger d-none" role="alert">
+                                        Please check password
+                                      </div>
+
+                                    
+                                    <div class="inputHolder position-relative my-3">
+                                        <div class="iconHolder position-absolute">
+                                            <img src="./images/LockKey.png" alt="">
+                                        </div>
+                                        <input id="passwordConfirmInput" class="form-control px-5 py-3" type="password" placeholder=" Confirm password"> 
+                                    </div>
+                                    <div id="passConfirmError" class="alert alert-danger d-none" role="alert">
+                                       your password is not identical
+                                      </div>
+
+                                    <button type="submit" class="btn_start btn col-md-12">
+                                        Create Account
+                                    </button>
+
+                                    
+
+                                </form>
+                            
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    
+    </div>
+
+<!-- bootstrap link  -->
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/script.js"></script>
+
+</body>
+</html>
